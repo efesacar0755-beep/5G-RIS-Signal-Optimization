@@ -1,0 +1,15 @@
+# 5G/6G Ağlarında Sinyal Yansımalarının RIS (Reconfigurable Intelligent Surfaces) ile Optimizasyonu
+
+**Yazar:** Halit Efe Sacar | Gaziantep Üniversitesi, Elektrik-Elektronik Mühendisliği 1. Sınıf  
+**Odak Alanları:** Telekomünikasyon, Sinyal İşleme, 6G Vizyonu, Akıllı Yüzeyler
+
+## Projenin Amacı
+Yüksek frekanslı 5G (mmWave) sinyalleri, binalar ve engeller tarafından kolayca soğurulur veya rastgele yansıyarak parazit (multipath fading) oluşturur. Bu proje, yansımaları bir problem olarak görmek yerine; binaların cephelerine yerleştirilecek "Akıllı Yansıtıcı Yüzeyler (RIS)" aracılığıyla sinyali bir ayna gibi odaklayarak "kör noktalardaki" kapsama alanını artırmayı hedefleyen teorik bir araştırmadır.
+
+## Temel Mühendislik Yaklaşımı
+Geleneksel baz istasyonları her yöne enerji harcarken (Aktif sistemler), RIS panelleri ortamdaki mevcut sinyali pasif olarak doğru açıya yönlendirir. Bu durum:
+1. **Sinyal Kalitesini (SNR) Artırır:** Engellerin arkasında kalan kullanıcılar için alternatif ve güçlü bir veri yolu oluşturur.
+2. **Enerji Tasarrufu Sağlar:** Yeni bir baz istasyonu kurmak yerine mevcut sinyal geri dönüştürülür, Huawei'nin "Green ICT" stratejisiyle tam uyumludur.
+
+## Simülasyon Kodu
+Proje içindeki `ris_signal_calculator.py` dosyası, düz bir beton duvarın rastgele yansıması ile RIS panelinin odaklanmış yansıması arasındaki sinyal güç farkını (dBm cinsinden) hesaplayan temel bir Python algoritması içermektedir.
